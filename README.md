@@ -1,7 +1,15 @@
-# Installing
-1. Clone the project and cd into the folder
-   `git clone https://github.com/fac19/week6-Tiger-Kingdom.git`
-   `cd week6-Tiger-Kingdom`
+# Tiger Kingdom Blog
+
+Post a picture of your favorite tigers!
+
+![](https://media.giphy.com/media/1430ZmFYxLxeHm/giphy.gif)
+
+https://tiger-kingdom.herokuapp.com/
+
+Go there now!!!
+
+## Installing
+1. Clone this project and cd into the folder
 3. Run `npm i` to install package dependencies
 4. Create a local "production" database called whatever you like
 5. Create a test database called `localtest` with the same owner/user
@@ -13,21 +21,38 @@
 6. Run `npm run setupdb` to initialise or reset your local production db
    Alternatively import 'src/db/schema.sql' using your preferred db admin tool
 
-# Running the tests
+### Running the tests
 
 Run `npm run test` to run tests
 
-# Running the server
+### Running the server
 
 1. Run `npm run startdev` to start
 2. Browse to http://localhost:3000
 
-# Or visit us live on the web
+## Learning Objectives
 
-https://tiger-kingdom.herokuapp.com/
+- Tom: Authentication, form validation
+- Roger: DB testing, Authentication
+- Kat: **Authentication!!!!** :checkered_flag: and everything else!
+- Chloe: Authentication, reinforcing knowledge of db queries, testing and node templates
 
-# The bugs are no doubt manifold
+## What we're proud of :100: 
 
-You can report them here: https://github.com/fac19/week6-Tiger-Kingdom/issues
+- Getting to grips with deployment and databases on Heroku
+- We all got to touch most aspects of the project
+- DB queries
+- Split the issues well - communicated what we wanted to learn
+- Could easily talk to all team members
+- "Tasteful and professional" styling
+
+## What we could have improved on :imp: 
+
+- Didn't lean on database constraints as much as we could
+- Could have expolited the data storage aspect of JWT more
+- More testing for each DB query
+- Client-side form validation using JS
+- Accessibility, not enough time spent
+
 
 Thanks for reading! :smiley:
